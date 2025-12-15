@@ -1,3 +1,5 @@
 # FPGA Image Processing
 
 I designed and implemented a fully streaming FPGA image processing pipeline that performs real-time edge detection using the Sobel operator. The system receives RGB image data over UART, converts it to grayscale, computes horizontal and vertical image gradients using a RAM-based 2D convolution engine, and generates an edge intensity output through a hardware-efficient gradient magnitude approximation. I further enhanced the pipeline by mapping gradient orientation to hue using an arctan2 approximation and applying a sigmoid-based soft threshold to magnitude values to produce an HSV visualization. All modules were implemented in synchronous SystemVerilog with ready/valid interfaces and single-cycle latency, verified using cocotb and simulation, and deployed on an FPGA as a unified bitstream. I developed a Python workflow to stream images to the FPGA, receive processed output, and reconstruct and display results using custom test images.
+
+demo: https://youtu.be/FP3xUSH1kNQ
