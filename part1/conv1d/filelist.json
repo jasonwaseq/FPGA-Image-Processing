@@ -1,0 +1,12 @@
+{
+    "top": "conv1d",
+    "files":
+    ["part1/conv1d/conv1d.sv",
+     "part1/conv1d/pll.sv",     
+     "provided/sipo.sv",
+     "provided/piso.sv",
+     "provided/dff.sv",
+     "provided/inv.sv",
+     "provided/axis_i2s2_synth.v"
+    ]
+}

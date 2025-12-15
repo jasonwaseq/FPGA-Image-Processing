@@ -1,0 +1,15 @@
+{
+    "top": "uart_axis",
+    "files":
+    ["part2/rgb2gray/uart_axis.sv"
+    ,"part2/rgb2gray/rgb2gray.sv"
+    ,"part2/rgb2gray/pll.sv"
+    ,"provided/dff.sv"
+    ,"provided/inv.sv"
+    ,"provided/uart_rx.v"
+    ,"provided/uart_tx.v"
+    ,"provided/uart.v"
+    ,"provided/axis_adapter.v"
+    ,"provided/pll.sv"
+    ]
+}

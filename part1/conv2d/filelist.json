@@ -1,0 +1,7 @@
+{
+    "top": "conv2d",
+    "files":
+    ["part1/conv2d/conv2d.sv",
+     "part1/conv2d/ram_1r1w_sync.sv"
+    ]
+}

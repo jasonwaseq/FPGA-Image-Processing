@@ -1,0 +1,17 @@
+{
+    "top": "uart_axis",
+    "files":
+    ["part2/sobel/uart_axis.sv"
+    ,"part2/sobel/sobel.sv"
+    ,"part1/conv2d/ram_1r1w_sync.sv"
+    ,"part2/sobel/conv2d.sv"
+    ,"part2/rgb2gray/rgb2gray.sv"
+    ,"provided/pll.sv"
+    ,"provided/dff.sv"
+    ,"provided/inv.sv"
+    ,"provided/axis_adapter.v"
+    ,"provided/uart.v"
+    ,"provided/uart_rx.v"
+    ,"provided/uart_tx.v"
+    ]
+}

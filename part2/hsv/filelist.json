@@ -1,0 +1,19 @@
+{
+    "top": "uart_axis",
+    "files":
+    ["part2/hsv/uart_axis.sv"
+    ,"part2/hsv/hsv.sv"
+    ,"part2/mag/mag.sv"
+    ,"part2/hsv/pll.sv"
+    ,"part2/rgb2gray/rgb2gray.sv"
+    ,"part2/sobel/sobel.sv"
+    ,"part2/sobel/conv2d.sv"
+    ,"part1/conv2d/ram_1r1w_sync.sv"
+    ,"provided/uart.v"
+    ,"provided/uart_tx.v"
+    ,"provided/uart_rx.v"
+    ,"provided/axis_adapter.v"
+    ,"provided/dff.sv"
+    ,"provided/inv.sv"
+    ]
+}
